@@ -1,0 +1,32 @@
+#formDN {
+    position: fixed;
+    z-index: 9;
+    top: 156px;
+    left: 110px;
+
+}
+
+#close, #closes, #closes1, #closes2 {
+    position: absolute;
+    font-size: 2.2rem;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+
+#close:hover {
+    opacity: 0.9;
+}
+
+.formDN {
+    display: none;
+}
+
+#hi {
+    margin-left: 40px;
+}
+
+#signInText {
+    font-size: 1.8rem;
+    margin-left: 40px !important;
+}

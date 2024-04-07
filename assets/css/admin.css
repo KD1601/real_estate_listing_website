@@ -1,0 +1,195 @@
+body {
+    background-color: #fff;
+}
+#logo {
+    height: 56px;
+    width: 56px;
+    border-radius: 10px;
+}
+
+#helloAdmin {
+    color: white;
+}
+
+#helloAdmin:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#option__admin:hover  #signOut {
+    display: block;
+}
+
+#option__admin {
+    margin-bottom: 0;
+    padding: 0;
+    margin: 12px;
+    list-style: none;
+    text-align: center;
+
+}
+
+#signOut {
+    position: absolute;
+    right: 136px;
+    top: 48px;
+    background-color: #fff;
+    display: none;
+    padding: 0 32px;
+    text-decoration: none;
+}
+
+#signOut:hover {
+    color: blue;
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+#nameAdmin {
+    color: rgb(24, 204, 24);
+    font-weight: bold;
+    font-size: 1.4rem;
+    
+}
+
+.effect li:hover a {
+    color: white;
+}
+
+.body {
+    margin-top: 50px;
+}
+
+#tableAcceptPost, #tableUsers {
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+
+.mr6 {
+    margin-right: 12px;
+}
+
+td a{
+    text-decoration: none;
+}
+
+
+/* View info */
+
+#showInf {
+    position: absolute;
+    z-index: 9;
+    top: 38px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+.image {
+    height: 350px;
+    width: 650px;
+}
+
+#carouselExampleIndicators{
+    width: fit-content !important;
+}
+
+#avatar {
+    height: 64px;
+    width: 64px;
+    margin: auto;
+}
+
+#uploadBy {
+    margin: auto;
+    margin-top: 8px;
+    color: rgb(151, 148, 148);
+}
+
+#nameUpload {
+    margin-left: 48px;
+}
+
+#btnCallOwner {
+    margin-top: 16px;
+    margin-left: 50px;
+}
+
+.cardOwner {
+    border: 1px solid rgba(19, 18, 18, 0.2) !important;
+}
+
+.mr98 {
+    margin-right: 98px;
+}
+
+.ml42 {
+    margin-left: 42px;
+}
+
+.howMuch {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500 !important;
+    color: #7a7979;
+}
+
+#much, #many, #beds, #baths{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500 !important;
+    color: #2C2C2C;
+}
+
+#phone {
+    height: 36px;
+    width: 36px;
+}
+
+.callNow {
+    padding: 0 3px;
+}
+
+.phoneNumber {
+    display: none;
+}
+
+#btnCall:hover .phoneNumber {
+    display: inline-block;
+}
+
+#btnCall:hover .callNow {
+    display: none;
+}
+
+#btnCallOwner:hover .phoneNumber {
+    display: inline-block;
+}
+
+#btnCallOwner:hover .callNow {
+    display: none;
+}
+
+#showInf {
+    margin-top: 75px;
+}
+
+#x {
+    position: absolute;
+    top: -34px;
+    right: 22px;
+    height: 36px;
+    width: 36px;
+}
+
+#x:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+/* End view info */
+

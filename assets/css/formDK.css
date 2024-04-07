@@ -1,0 +1,19 @@
+#formDK {
+    position: fixed;
+    z-index: 9;
+    top: 100px;
+    left: 110px;
+
+}
+
+#card__body {
+    position: relative;
+}
+
+.formDK {
+    display: none;
+}
+
+.checkbox-agree {
+    margin-left: 24px;
+}

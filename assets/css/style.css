@@ -1,0 +1,466 @@
+body {
+    position: relative;
+    min-height: 1000px;
+}
+
+.mr100 {
+    margin-right: 100px !important;
+}
+
+.ml-26 {
+    margin-left: 26px;
+}
+
+.mt16 {
+    margin-top: 16px !important;
+}
+
+.mt4 {
+    margin-top: 4px;
+}
+
+.fixed-top {
+    box-shadow: 1px -1px 5px 2px rgb(104, 102, 102);
+}
+
+#blur__screen{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    top: -58px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+
+
+#logo-header {
+    height: 80px;
+    width: 80px;
+}
+
+#logo-header:hover {
+    cursor: pointer;
+}
+
+#headerSignUp,#headerSignIn {
+    margin-top: 18px
+}
+
+.fixed-top {
+    z-index: 9 !important;
+}
+
+.child-ul{
+    color: black !important;
+    font-weight: 500 ;
+}
+
+.first-child-ul{
+    position: relative;
+}
+
+.first-child-ul::after {
+    content: '';
+    position: absolute;
+    right: -18px;
+    height: 18px;
+    top: 12px;
+    width: 50%;
+    border-right: 1px solid rgb(192, 192, 192);
+}
+
+.upload-info {
+    border: 1px solid red;
+}
+
+.upload-info {
+   border-radius: 5px;
+}
+
+.last-child-ul{
+    color: red !important;
+    font-weight: 500 ;
+    font-size: 1.2rem;
+    height: 100%;
+    margin-top: 8px;
+    line-height: 4px;
+}
+
+.mask, .mask1, #search-box {
+    border-radius: 6px;
+}
+
+#search-box {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    background-color: transparent;
+    width: fit-content;
+}
+
+#search-box li {
+    padding: 8px 24px 8px 24px;
+    /* background-color: #fff; */
+}
+
+#search-box li a {
+    text-decoration: none;
+    color: rgb(136, 132, 132);
+    font-weight: 500;
+    /* background-color: #fff; */
+}
+
+#search-box li:hover {
+    color: #fff;
+    background-color: rgba(70, 66, 66, 0.6)
+}
+
+#requireFill {
+    width: fit-content;
+    display: none;
+    color: rgb(255, 9, 9);
+    font-weight: 500;
+    margin-left: 10px;
+    text-shadow: #fff 1px 1px 1px;
+}
+
+#requireFill:hover {
+    color: white;
+}
+
+.changeBg {
+    color: #fff !important;
+    background-color: rgba(70, 66, 66, 0.6)  
+}
+
+.changeBg  a{
+    color: #fff !important;
+}
+
+.input {
+    background-color: #fff;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#category {
+    border: none;
+    outline: none;
+}
+
+#inputText__name {
+    outline: none;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: rgb(228, 117, 117) !important;
+}
+
+#selectLocation option {
+    color: black;
+}
+
+.selected {
+    margin: 8px;
+    outline: none;
+    color: #fff;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin: 0 8px 8px 8px;
+    background-color: transparent;
+}
+
+.selected-price  option, .selected-area option, .selected-bedroom option, .selected-toilet option{
+    color: black !important;
+}
+
+#refresh__img {
+    margin-top: 6px;
+    margin-right: 8px;
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+}
+
+#refresh__img:hover {
+    cursor: pointer;
+    background-color: rgb(66, 65, 65);
+    border-radius: 5px;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-weight: 500;
+    margin-left: 38px;
+}
+
+#Nav {
+    max-height: 80px;
+}
+
+#ul__header {
+    height: 80px;
+}
+
+.upload-info {
+    height: fit-content;
+}
+
+.upload-info, #headerHello {
+    margin-top: 16px;
+}
+
+#headerHello:hover {
+    cursor: pointer;
+}
+
+#headerHello:hover #dropdown {
+    display: flex;
+}
+
+#dropdown {
+    z-index: 5;
+    display: none;
+    width: 205px;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#dropdown a {
+    padding: 4px 0 0 4px;
+    text-decoration: none;
+}
+
+#dropdown a:hover {
+    background-color: #ccc;
+}
+
+/* Phan thong tin BDS */
+
+.card {
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgb(44, 14, 14) !important;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.images {
+    height: 100%;
+    max-width: 162px;
+}
+
+.inf {
+    padding: 8px 16px;
+}
+
+.name-house {
+    color: red;
+    font-weight:600;
+    font-size: 1.3rem;
+}
+
+.description {
+    display: -webkit-box;
+    /* height: 60px;  */
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis " [...]";
+    overflow: hidden;
+}
+
+#byName {
+    color: red;
+    font-weight: 500;
+}
+
+#phone {
+    height: 36px;
+    width: 36px;
+}
+
+.callNow {
+    padding: 0 3px;
+}
+
+.phoneNumber {
+    display: none;
+}
+
+#btnCall:hover .phoneNumber {
+    display: inline-block;
+}
+
+#btnCall:hover .callNow {
+    display: none;
+}
+
+#btnCallOwner:hover .phoneNumber {
+    display: inline-block;
+}
+
+#btnCallOwner:hover .callNow {
+    display: none;
+}
+
+
+
+.card-header {
+    background-color: #004e7f !important;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Project houses css */
+
+#project-house {
+    position: absolute;
+    z-index: 8;
+    background-color: #fff;
+    top: 96px;
+    right: 350px;
+    display: none;
+    height: fit-content;
+    width: 710px;
+    border-radius: 5px;
+}
+
+.title__project {
+    text-align: center !important;
+    color: #0a62e2;
+    line-height: 30px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: bold;
+    text-shadow: 1px 1px #eee;
+    margin-top: 8px;
+}
+
+.overall {
+    font-weight: bold;
+    font-size: 16px;
+    color: #006400;
+    line-height: 22px;
+}
+
+#closes2:hover {
+    opacity: 0.9;
+}
+
+/*End project houses css */
+
+/* Show inf house */
+#showInf {
+    position: absolute;
+    z-index: 9;
+    top: 38px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+.image {
+    height: 350px;
+    width: 650px;
+}
+
+#carouselExampleIndicators{
+    width: fit-content !important;
+}
+
+#avatar {
+    height: 64px;
+    width: 64px;
+    margin: auto;
+}
+
+#uploadBy {
+    margin: auto;
+    margin-top: 8px;
+    color: rgb(151, 148, 148);
+}
+
+#nameUpload {
+    margin-left: 48px;
+}
+
+#btnCallOwner {
+    margin-top: 16px;
+    margin-left: 50px;
+}
+
+.cardOwner {
+    border: 1px solid rgba(19, 18, 18, 0.2) !important;
+}
+
+.mr98 {
+    margin-right: 98px;
+}
+
+.ml42 {
+    margin-left: 42px;
+}
+
+.howMuch {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500 !important;
+    color: #7a7979;
+}
+
+#much, #many, #beds, #baths{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500 !important;
+    color: #2C2C2C;
+}
+/* End show inf house */
+
+/* Footer */
+
+.img__tick {
+    margin-left: 23%;
+}
+
+#img__tick {
+    height: 54px;
+    width: 138px;
+}
+
+/* End footer */
+
+@media (max-width: 739px) {
+    .filter__fast {
+        display: none;
+    }
+    #contentBody { 
+        width: 100%;
+        overflow:auto;
+    }
+
+    .tagHouse {
+        width: fit-content !important;
+    }
+
+    .filter__infomation {
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+
+
+
+

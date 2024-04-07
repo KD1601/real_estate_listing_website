@@ -1,0 +1,36 @@
+.seller, .moreInf, .imgH {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+#ln {
+    height: 38px;
+    border: 1px solid #ccc;
+}
+
+#mt {
+    border: 1px solid #ccc;
+}
+
+#dateUp {
+    line-height: 1.9rem;
+}
+
+.container {
+    position: relative;
+}
+
+#goMainPage {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
